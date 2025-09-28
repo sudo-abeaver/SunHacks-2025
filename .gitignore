@@ -1,20 +1,67 @@
 # Environment variables
 .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# Comic generator output files
-panel_*.png
-final_comic.png
-final_grid.png
-comic_data.json
-
-# Python cache files
+# Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+*.so
 .Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# macOS system files
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Next.js
+.next/
+out/
+build/
+
+# Logs
+*.log
+logs/
+comic_api.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
 .DS_Store
 .DS_Store?
 ._*
@@ -23,9 +70,23 @@ __pycache__/
 ehthumbs.db
 Thumbs.db
 
-# IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Generated images and comics
+generated_comics/
+comic_images/
+*.png
+*.jpg
+*.jpeg
+*.gif
+!public/*.png
+!public/*.jpg
+!public/*.jpeg
+!public/*.gif
+
+# API responses
+comic_response.json
