@@ -4,12 +4,12 @@ Transform any concept into engaging educational comic strips using AI! This appl
 
 ## Features
 
-- 🎨 AI-powered comic generation using Google Gemini
-- 📚 Educational focus with mascot characters
-- 🖼️ 4-panel comic format
-- 🎭 Consistent character design across panels
-- 🌐 Modern web interface built with Next.js
-- 🔧 Test mode for development without API calls
+- AI-powered comic generation using Google Gemini
+- Educational focus with mascot characters
+- 4-panel comic format
+- Consistent character design across panels
+- Modern web interface built with Next.js
+- Test mode for development without API calls
 
 ## Prerequisites
 
