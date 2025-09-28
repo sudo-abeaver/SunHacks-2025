@@ -1,1 +1,37 @@
+# Environment variables
 .env
+
+# Comic generator output files
+panel_*.png
+final_comic.png
+final_grid.png
+comic_data.json
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# macOS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node.js (for the concept2comic project)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
