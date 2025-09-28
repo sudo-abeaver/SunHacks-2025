@@ -29,9 +29,3 @@ Thumbs.db
 *.swp
 *.swo
 *~
-
-# Node.js (for the concept2comic project)
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
