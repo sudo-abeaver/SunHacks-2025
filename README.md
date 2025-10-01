@@ -24,7 +24,7 @@ Transform any concept into engaging educational comic strips using AI! This appl
 
 ```bash
 git clone <your-repo-url>
-cd concept2comic-production
+cd cd SunHacks-2025
 ```
 
 ### 2. Environment Configuration
